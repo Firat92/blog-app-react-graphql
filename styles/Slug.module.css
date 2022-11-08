@@ -1,0 +1,41 @@
+.bg {
+	background-color: #e5eaf5;
+}
+
+.blog {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 40rem;
+	padding: 0 1rem;
+}
+
+.cover {
+	width: 100%;
+	border-radius: 5rem;
+	margin-top: 1rem;
+}
+
+.title {
+	display: flex;
+	padding: 1rem;
+	gap: 1rem;
+}
+
+.title img {
+	width: 5rem;
+	height: 5rem;
+}
+
+.authtext {
+	margin-top: 1rem;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.content {
+	text-align: left;
+	margin-top: -1rem;
+}

@@ -1,0 +1,42 @@
+.card {
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	margin: 0 auto;
+	border-radius: 2rem;
+	width: 400px;
+	height: 380px;
+	gap: 1rem;
+	background-color: #dcc7aa;
+}
+
+.card img {
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+	object-fit: cover;
+	width: 400px;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.text img {
+	width: 4rem;
+	height: 4rem;
+	margin-left: 0.5rem;
+}
+
+.details {
+	display: flex;
+	justify-content: space-between;
+}
+
+.author {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.date {
+	margin-right: 0.5rem;
+}
